@@ -1,4 +1,4 @@
-FROM ubuntu:17.10
+FROM ubuntu:18.04
 MAINTAINER Sergey Podobry <sergey.podobry@stellaritysoftware.com>
 LABEL Description="openjdk8 base image"
 
