@@ -2,4 +2,4 @@ version: '3'
 services:
   openjdk8:
     build: .
-    image: stellarity/openjdk8
+    image: StellaritySoftware/openjdk8

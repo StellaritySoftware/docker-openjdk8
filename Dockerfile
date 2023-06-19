@@ -1,9 +1,6 @@
-FROM ubuntu:18.04
-MAINTAINER Sergey Podobry <sergey.podobry@stellaritysoftware.com>
+FROM ubuntu:22.04
 LABEL Description="openjdk8 base image"
 
-ENV DEBIAN_FRONTEND noninteractive
-ENV TERM linux
 ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 
 # install packages
